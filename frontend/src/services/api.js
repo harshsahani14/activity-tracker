@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000/api";
 
 export const setAuthToken = (token) => {
   if (token) {
@@ -15,7 +15,7 @@ const apiCall = async (endpoint, options = {}) => {
     "Content-Type": "application/json",
     ...options.headers,
   };
-  
+
   const token = getAuthToken();
   if (token) {
     headers.Authorization = `Bearer ${token}`;
