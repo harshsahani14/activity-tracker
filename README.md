@@ -342,7 +342,7 @@ curl -X GET http://localhost:5000/api/activity/suspicious \
 To add suspicious records in mongodb run
 
 ```bash
-node  backend/scripts/replayCheck.js                    
+node  backend/scripts/seedSuspicious.js                   
 ```
 
 
