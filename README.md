@@ -82,7 +82,7 @@ Create a `.env` file in the `backend/` directory:
 Edit `.env` with your actual values:
 ```env
 PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/
+MONGO_URI=mongodb://127.0.0.1:27017/activity-tracker
 REDIS_URL=redis://127.0.0.1:6379
 JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
 ```
