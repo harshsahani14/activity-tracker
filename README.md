@@ -1,6 +1,6 @@
 # Activity Tracker - Smart User Activity Logging System
 
-A real-time activity tracking and analytics platform built with Node.js, Express, MongoDB, React, and Redis. Track user actions, enforce rate limiting with a sliding window token bucket algorithm, and visualize activity metrics in real-time.
+A real-time activity tracking and analytics platform built with Node.js, Express, MongoDB, React, and Redis. Track user actions, enforce rate limiting with a sliding window log algorithm, and visualize activity metrics in real-time.
 
 ## Features
 
