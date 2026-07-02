@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://activity-tracker-ten-mu.vercel.app/l",
+    origin: "https://activity-tracker-ten-mu.vercel.app/",
     credentials: true,
   }),
 );
