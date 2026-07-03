@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://activity-tracker-ten-mu.vercel.app/",
+    origin: process.env.VITE_APP_URL || "http://localhost:5173",
     credentials: true,
   }),
 );
